@@ -1,0 +1,14 @@
+// Noah Fishman
+// Cris Droguett
+
+#ifndef LEFT_MOTOR_TIMER_H_
+#define LEFT_MOTOR_TIMER_H_
+
+void set_left_motor_duty_cycle(uint8_t duty_cycle);
+void configure_left_motor();
+void brake_left_motor();
+void coast_left_motor();
+void turn_on_left_motor_forwards();
+void turn_on_left_motor_reverse();
+
+#endif /* LEFT_MOTOR_TIMER_H_ */
